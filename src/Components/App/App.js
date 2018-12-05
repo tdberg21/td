@@ -7,7 +7,13 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          
+          <div className='links-container'>
+            <NavLink to='/' className='nav'> Home </NavLink>
+            <NavLink to='/about' className='nav'> About Me </NavLink>
+            <NavLink to='/resume' className='nav'> Resume </NavLink>
+            <NavLink to='/projects' className='nav'> Projects </NavLink>
+            <NavLink to='/contact' className='nav'> Contact </NavLink>
+          </div>
         </header>
       </div>
     );
