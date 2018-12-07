@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import { Route, NavLink } from 'react-router-dom';
+import Bio from '../Bio/Bio.js';
+import Projects from '../Projects/Projects.js';
 
 class App extends Component {
   render() {
@@ -15,6 +17,9 @@ class App extends Component {
             <NavLink to='/contact' className='nav'> Contact </NavLink>
           </div>
         </header>
+        <Route path='/about' component={Bio} />
+        <Route path='/projects' component={Projects} />
+
       </div>
     );
   }
