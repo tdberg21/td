@@ -10,8 +10,16 @@
   padding-top: 1rem;
 }
 
+.bio-title {
+  font-family: 'Unlock', cursive;  
+}
+
 .bio-text {
   margin: 0 auto;
   color: #fff;
   padding-top: 1rem;
+}
+
+.bio-paragraphs {
+  text-align: left;
 }

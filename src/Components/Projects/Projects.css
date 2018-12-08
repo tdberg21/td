@@ -2,6 +2,7 @@
   text-align: left;
   /* background-color: #000; */
   background-color: #282c34;
+  
 }
 
 .project-cards-container {
@@ -21,6 +22,8 @@
 .project-title {
   text-decoration: underline;
   font-size: 1.2rem;
+  letter-spacing: 1px;
+  font-family: 'Unlock', cursive;  
 }
 
 .project-text {
@@ -34,4 +37,8 @@
 
 .project-pic {
   height: 200px;
+}
+
+.note {
+  font-size: 0.8rem;
 }
