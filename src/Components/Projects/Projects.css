@@ -1,10 +1,13 @@
 .Project-component {
   text-align: left;
+  /* background-color: #000; */
+  background-color: #282c34;
 }
 
 .project-cards-container {
   width: 90%;
-  margin: 1rem auto;
+  margin: 0 auto;
+  padding-top: 1rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;

@@ -1,6 +1,6 @@
 * {
   font-size: 16px;
-  background-color: #282c34;
+  /* background-color: #282c34; */
 }
 
 .App {
@@ -14,14 +14,51 @@
   justify-content: flex-end;
   /* font-size: calc(10px + 2vmin); */
   padding: 0 1rem;
+  background-color: #000;
+}
+
+.links-container {
+  background-color: #000;
 }
 
 .nav {
   color: #fff;
   margin: 0 0.5rem;
   text-decoration: none;
+  
 }
 
 .links-container {
   padding: 1rem;
+}
+
+.App-body {
+  min-height: 85vh;
+  background: linear-gradient(
+      rgba(1, 23, 5, 0.7), 
+      rgba(1, 23, 5, 0.7)), url('../../assets/coding2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.App-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 15vh;
+  background-color: #000;
+}
+
+.footer-links {
+  background-color: #000;
+  border: none;
+  margin: 0 1rem;
+}
+
+.logos {
+  width: 25px;
+}
+.turing {
+  width: 30px;
 }

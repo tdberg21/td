@@ -1,0 +1,16 @@
+.Contact-body {
+  min-height: 60vh;
+  background-color: #000;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.contact-text {
+  margin: 0;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.contact-links {
+  color: #fff;
+}

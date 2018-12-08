@@ -1,5 +1,5 @@
 import React from 'react';
-import resumeImage from '../../assets/TD-Resume2.jpg';
+import resumeImage from '../../assets/TD-resume-for-site.jpg';
 import './Resume.css';
 // import { Document } from 'react-pdf';
 
