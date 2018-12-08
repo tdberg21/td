@@ -3,6 +3,7 @@ import './App.css';
 import { Route, NavLink } from 'react-router-dom';
 import Bio from '../Bio/Bio.js';
 import Projects from '../Projects/Projects.js';
+import Resume from '../Resume/Resume.js';
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
         </header>
         <Route path='/about' component={Bio} />
         <Route path='/projects' component={Projects} />
+        <Route path='/resume' component={Resume} />
 
       </div>
     );
