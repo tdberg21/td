@@ -1,0 +1,17 @@
+.Bio-component {
+  min-height: 70vh;
+  background-color: #000;
+  padding: 1rem;
+}
+
+.bio-container {
+  margin: 0 auto;
+  width: 80%;
+  padding-top: 1rem;
+}
+
+.bio-text {
+  margin: 0 auto;
+  color: #fff;
+  padding-top: 1rem;
+}

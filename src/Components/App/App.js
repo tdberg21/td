@@ -15,18 +15,19 @@ class App extends Component {
     return (
       <div className='App'>
         <header className='App-header'>
+          <h2 className='App-logo'>t.d. llc</h2>
           <div className='links-container'>
             <NavLink to='/' className='nav'> Home </NavLink>
-            <NavLink to='/about' className='nav'> About Me </NavLink>
-            <NavLink to='/resume' className='nav'> Resume </NavLink>
             <NavLink to='/projects' className='nav'> Projects </NavLink>
+            <NavLink to='/resume' className='nav'> Resume </NavLink>
+            <NavLink to='/about' className='nav'> About Me </NavLink>
             <NavLink to='/contact' className='nav'> Contact </NavLink>
           </div>
         </header>
         <Route exact path='/' component={Home} />
-        <Route path='/about' component={Bio} />
         <Route path='/projects' component={Projects} />
         <Route path='/resume' component={Resume} />
+        <Route path='/about' component={Bio} />
         <Route path='/contact' component={Contact} />
         <footer className='App-footer'>
           <a href='https://github.com/tdberg21' target='_blank' className='footer-links' rel='noopener noreferrer'><img src={github} alt='github-logo' className='logos'></img></a>

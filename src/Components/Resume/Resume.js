@@ -6,7 +6,7 @@ import './Resume.css';
 
 const Resume = () => {
   return (
-    <div className='Resume-componenet'>
+    <div className='Resume-component'>
       <img 
         src={resumeImage} 
         alt='resume'
