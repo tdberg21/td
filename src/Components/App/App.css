@@ -63,6 +63,11 @@
 .logos {
   width: 25px;
 }
+
 .turing {
   width: 30px;
+}
+
+.sub-titles {
+  text-decoration: underline;
 }
