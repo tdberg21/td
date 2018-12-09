@@ -1,5 +1,5 @@
 import bbqHome from '../../assets/bbquest-home.png';
-import cageHome from '../../assets/cage-home.png';
+import cageHome from '../../assets/cagegif.gif';
 import quint from '../../assets/quint.gif';
 import golfApp from '../../assets/golf-app.gif';
 import palpicker from '../../assets/palgif.gif';
@@ -8,7 +8,7 @@ import whoYouKnow from '../../assets/whoyouknow.png';
 export const projectData = [
   {
     name: 'BBQuest',
-    link: 'https://github.com/tdberg21/movie-tracker',
+    link: 'https://github.com/tdberg21/bbquest',
     description: 'BBQuest is an app that allows you to search for BBQ anywhere in the United States, and then read reviews and see ratings for those restaurants. It also allows you to track restaurants you have tried, what you ate and give them your own personal rating!',
     stack: 'React, Redux, React-Router, Jest, Enzyme',
     image: bbqHome,
@@ -51,6 +51,14 @@ export const projectData = [
     link: 'https://palette-picker-td.herokuapp.com/',
     description: 'Generate a random palette, save projects, and save palettes to those projects.',
     stack: 'JQuery (Front-End), Node Express (Back-End)',
+    image: palpicker,
+    note: ''
+  },
+  {
+    name: 'Slytherin Snake',
+    link: 'https://palette-picker-td.herokuapp.com/',
+    description: 'Classic game of Snake with a Harry Potter twist.',
+    stack: 'JavaScript, Canvas',
     image: palpicker,
     note: ''
   }
