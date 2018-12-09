@@ -4,6 +4,8 @@ import quint from '../../assets/quint.gif';
 import golfApp from '../../assets/golf-app.gif';
 import palpicker from '../../assets/palgif.gif';
 import whoYouKnow from '../../assets/whoyouknow.png';
+import snake from '../../assets/snake-play.png';
+import swapi from '../../assets/swapi.png';
 
 export const projectData = [
   {
@@ -55,11 +57,19 @@ export const projectData = [
     note: ''
   },
   {
+    name: 'Swapi Box',
+    link: 'https://github.com/tdberg21/swapibox',
+    description: 'For this project, we are hitting The Star Wars API to tap into a “black hole” of Star Wars data. Mwahaha. SWAPIbox is an application that informs users about Star Wars people, planets and vehicles using the Star Wars API. The user can choose which category to view and save favorites.',
+    stack: 'React, Jest, Enzyme',
+    image: swapi,
+    note: ''
+  },
+  {
     name: 'Slytherin Snake',
-    link: 'https://palette-picker-td.herokuapp.com/',
+    link: 'https://github.com/tdberg21/game-time',
     description: 'Classic game of Snake with a Harry Potter twist.',
     stack: 'JavaScript, Canvas',
-    image: palpicker,
+    image: snake,
     note: ''
   }
 ]
