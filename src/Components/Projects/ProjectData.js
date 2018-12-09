@@ -19,7 +19,7 @@ export const projectData = [
   {
     name: 'Quint Advisors',
     link: 'https://quint-consulting.herokuapp.com/',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed dolor id quam imperdiet ullamcorper. Suspendisse placerat arcu condimentum, dictum tellus in, tempus mi. Sed arcu massa, tempus et eros ac, rutrum sagittis justo. Duis ornare mi erat, nec gravida sapien vehicula et. Donec ut rutrum urna. Nam varius faucibus tellus id rhoncus.',
+    description: 'In November I was asked to develop a website by a group of very senior retired government and financial sector executives interested in setting up n advisory service. Working with only and oral description of what the executives were looking for in their site, in a couple of days I developed a bespoke site featuring a home page, description of the market the executives were targeting, a page describing the services offered, a page with links to the individual biographies of the partners, and a page for client testimonials.',
     stack: 'React, React-Router',
     image: quint,
     note: ''
