@@ -1,14 +1,16 @@
 import bbqHome from '../../assets/bbquest-home.png';
-import cageHome from '../../assets/cage-home.png';
+import cageHome from '../../assets/cagegif.gif';
 import quint from '../../assets/quint.gif';
 import golfApp from '../../assets/golf-app.gif';
 import palpicker from '../../assets/palgif.gif';
 import whoYouKnow from '../../assets/whoyouknow.png';
+import snake from '../../assets/snake-play.png';
+import swapi from '../../assets/swapi.png';
 
 export const projectData = [
   {
     name: 'BBQuest',
-    link: 'https://github.com/tdberg21/movie-tracker',
+    link: 'https://github.com/tdberg21/bbquest',
     description: 'BBQuest is an app that allows you to search for BBQ anywhere in the United States, and then read reviews and see ratings for those restaurants. It also allows you to track restaurants you have tried, what you ate and give them your own personal rating!',
     stack: 'React, Redux, React-Router, Jest, Enzyme',
     image: bbqHome,
@@ -52,6 +54,22 @@ export const projectData = [
     description: 'Generate a random palette, save projects, and save palettes to those projects.',
     stack: 'JQuery (Front-End), Node Express (Back-End)',
     image: palpicker,
+    note: ''
+  },
+  {
+    name: 'Swapi Box',
+    link: 'https://github.com/tdberg21/swapibox',
+    description: 'For this project, we are hitting The Star Wars API to tap into a “black hole” of Star Wars data. Mwahaha. SWAPIbox is an application that informs users about Star Wars people, planets and vehicles using the Star Wars API. The user can choose which category to view and save favorites.',
+    stack: 'React, Jest, Enzyme',
+    image: swapi,
+    note: ''
+  },
+  {
+    name: 'Slytherin Snake',
+    link: 'https://github.com/tdberg21/game-time',
+    description: 'Classic game of Snake with a Harry Potter twist.',
+    stack: 'JavaScript, Canvas',
+    image: snake,
     note: ''
   }
 ]
