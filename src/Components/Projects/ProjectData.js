@@ -22,7 +22,7 @@ export const projectData = [
     description: 'In November I was asked to develop a website by a group of very senior retired government and financial sector executives interested in setting up n advisory service. Working with only and oral description of what the executives were looking for in their site, in a couple of days I developed a bespoke site featuring a home page, description of the market the executives were targeting, a page describing the services offered, a page with links to the individual biographies of the partners, and a page for client testimonials.',
     stack: 'React, React-Router',
     image: quint,
-    note: ''
+    note: '* First \'freelance\' project'
   },
   {
     name: 'Cage Tracker',
@@ -67,10 +67,10 @@ export const projectData = [
   {
     name: 'Slytherin Snake',
     link: 'https://github.com/tdberg21/game-time',
-    description: 'Classic game of Snake with a Harry Potter twist.',
+    description: 'Classic game of Snake (if you ever had a Nokia cellphone, you know) with a Harry Potter twist. Shoutout Nagini!',
     stack: 'JavaScript, Canvas',
     image: snake,
-    note: ''
+    note: '* One of the hardest parts of completing this project was all the lost time \'testing out the game\' endlessly. It is so addicting.'
   }
 ]
 
