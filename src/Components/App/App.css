@@ -28,8 +28,11 @@
 .nav {
   color: #fff;
   margin: 0 0.5rem;
-  text-decoration: none;
-  
+  text-decoration: none; 
+}
+
+.nav:hover {
+  text-decoration: underline; 
 }
 
 .links-container {

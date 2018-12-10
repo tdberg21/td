@@ -15,13 +15,13 @@ class App extends Component {
     return (
       <div className='App'>
         <header className='App-header'>
-          <h2 className='App-logo'>t.d. llc</h2>
+          <h2 className='App-logo'>t.d.</h2>
           <div className='links-container'>
-            <NavLink to='/' className='nav'> Home </NavLink>
-            <NavLink to='/projects' className='nav'> Projects </NavLink>
-            <NavLink to='/resume' className='nav'> Resume </NavLink>
-            <NavLink to='/about' className='nav'> About Me </NavLink>
-            <NavLink to='/contact' className='nav'> Contact </NavLink>
+            <NavLink to='/' className='nav'>Home</NavLink>
+            <NavLink to='/projects' className='nav'>Projects</NavLink>
+            <NavLink to='/resume' className='nav'>Resume</NavLink>
+            <NavLink to='/about' className='nav'>About Me</NavLink>
+            <NavLink to='/contact' className='nav'>Contact</NavLink>
           </div>
         </header>
         <Route exact path='/' component={Home} />
