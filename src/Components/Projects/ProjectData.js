@@ -8,14 +8,7 @@ import snake from '../../assets/snake-play.png';
 import swapi from '../../assets/swapi.png';
 
 export const projectData = [
-  {
-    name: 'BBQuest',
-    link: 'https://github.com/tdberg21/bbquest',
-    description: 'BBQuest is an app that allows you to search for BBQ anywhere in the United States, and then read reviews and see ratings for those restaurants. It also allows you to track restaurants you have tried, what you ate and give them your own personal rating!',
-    stack: 'React, Redux, React-Router, Jest, Enzyme',
-    image: bbqHome,
-    note: '* First time building my own backend'
-  },
+  
   {
     name: 'Quint Advisors',
     link: 'https://quint-consulting.herokuapp.com/',
@@ -23,6 +16,14 @@ export const projectData = [
     stack: 'React, React-Router',
     image: quint,
     note: '* First \'freelance\' project'
+  },
+  {
+    name: 'BBQuest',
+    link: 'https://github.com/tdberg21/bbquest',
+    description: 'BBQuest is an app that allows you to search for BBQ anywhere in the United States, and then read reviews and see ratings for those restaurants. It also allows you to track restaurants you have tried, what you ate and give them your own personal rating!',
+    stack: 'React, Redux, React-Router, Jest, Enzyme',
+    image: bbqHome,
+    note: '* First time building my own backend'
   },
   {
     name: 'Cage Tracker',
